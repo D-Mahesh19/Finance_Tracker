@@ -1,0 +1,674 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.Home,.Forgot{width: 100%;
+  height: 100vh;
+
+  background: linear-gradient(to right, #4E65FF, #92EFFD);
+  background-repeat: no-repeat;
+ 
+}
+.LogIn,.forgot-data{
+  position: relative;
+  left: 40vw;
+  top :6vw;
+  width: 25vw;
+  background-color:#ADD8E6  ;
+  border-radius: 1vw;
+  height: 30vw;
+}
+.LogIn h1{
+  text-align: center;
+  position: relative;
+  top: 3vw;
+}
+.LogIn h3{
+  text-align: center;
+  color: red;
+  position: relative;
+
+
+}
+.LogIn form{
+  position: relative;
+  align-items: center; 
+  left: 3vw;
+  width: 17vw;
+  height: 30vw;
+  top:  5vw;
+  
+}
+
+.LogIn form a{
+
+position: relative;
+text-align: center;
+left: 5vw;
+top: 2vw;
+
+}
+
+.LogIn input,.Register input,.ChangePassword input{
+  background-color: #FDFCFB ;
+  padding: 1vw;
+  border-radius: 2vw;
+  margin: .5vw;
+  box-shadow : .4vw .4vw;
+  outline: none;
+}
+.ChangePassword input{
+ position: relative;
+ top: 5vw;
+ width: 18vw;
+ left: 3vw;
+ margin-top: 1.5vw;
+ 
+}
+
+.LogIn button,.Register button,.ChangePassword button{
+  position: relative;
+  height: 3vw;
+  width: 10vw;
+  border-radius: 15px;
+  top: 1vw;
+  background-color:#0818A8;
+}
+.ChangePassword button{
+  position: relative;
+  top: 7vw;
+  left: 7vw;
+}
+.ChangePassword h1{
+  text-align: center;
+position: relative;
+top: 4vw;
+text-shadow: 2px 2px white;
+}
+.ChangePassword h3{
+  color: red;
+  position: relative;
+  top: 8vw;
+  text-align: center;
+}
+
+.LogIn button{
+  left: 4vw;
+}
+
+.Register
+{
+  background: linear-gradient(to right,#9DDE8B,#E6FF94);
+  height: 100vh;
+}
+.Register form{
+  position: relative;
+  top: 10vw;
+  left: 40vw;
+
+  background-color:#ACE1AF;
+  height: 32vw;
+  width: 25vw;
+  border-radius: 20px;
+  
+  
+}
+ .Register input{
+  width: 20vw;
+  margin: 1vw;
+  top: 5vw;
+   }
+
+
+
+.Register button{
+ position: relative;
+ left: 7vw;
+ top: 4vw;
+  background-color: #6050DC;
+}
+.Register-form h1{
+  text-align: center;
+  position: relative;
+  top: 2vw;
+} 
+.Register label{
+  position: relative;
+  top: 2vw;
+  left: 1.5vw;
+}
+.Register-form h3{
+  color: red;
+  text-align: center;
+  margin-top: 6vw;
+}
+.layout{
+  background: linear-gradient(to right,#4E65FF,#92EFFD);
+  height: 118vh;
+  width: 100%;
+}
+.layout-data{
+  
+  display: flex;
+  justify-content: space-around; 
+  position: relative;
+  top: 2vw;
+  
+  
+  
+}
+.data{
+  width: 15vw;
+  border: 2px,solid,black;
+  
+  text-align: center;
+  font-size: 3vw;
+  border-radius: 20px;
+}
+.paichart{
+  display: flex;
+  margin-top: 7vw;;
+justify-content: space-between;
+  
+}
+.chart-wrapper{
+  width: 25vw; 
+  height: 25vw; 
+  position: relative;
+  left: 37vw;
+  top: -4vw;
+  
+}
+
+
+.login-btn,.signup-btn{
+  width: 6vw;
+  height: 3vw;
+  position: relative;
+  left: 1vw;
+  border-radius: 10px;
+  box-shadow: 5px 5px;
+  background-color: thistle;
+}
+.first {  
+  background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+align-items: center;
+  width: 100%;
+  height: 100vh;;
+  
+}
+.signup-btn{
+  position: relative;
+  left:24vw;
+  top: 15vw;
+}
+.signup-btn:hover{
+  background-color: #C08B5C;
+}
+.login-btn{
+  position: relative;
+  top: 15vw;
+  left: 15vw;
+ list-style: none;
+ color: black;
+}
+.login-btn:hover{
+  background-color: #FF5F00;
+}
+.first h1{
+  position: relative;
+  text-align: center;
+  top: 8vw  ;
+  color:#E6FF94;
+  text-shadow: 3px 3px black;
+}
+.first img{
+  width: 25vw;
+  background: transparent;
+  position: relative;
+  top: 12vw;
+  left: 38vw;
+  border-radius: 3vw;
+}
+ 
+table, th, td {
+  border:1px solid black;
+  width: fit-content;
+  text-align: center;
+  font-size: larger;
+}
+table{
+  width:100%;
+  position: relative;
+  top: 5vw;
+}
+.Credits-table{
+  background: linear-gradient(to right,#fa709a,#fee140);
+  width: 100%;
+  height: 100vh;
+}
+.Debits-table{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+}
+.link-cbtn{
+  text-decoration: none;
+  color: black;
+
+}
+.data-btn{
+  display: flex;
+  gap: 1vw;
+  position: relative;
+  top: 3vw;
+  left: 1vw;
+}
+
+.btn1,.btn2{
+  background-color: lightyellow;
+  height: 3vw;
+  width: 10vw;
+  border-radius: 10px;
+}
+.btn1:hover{
+  background-color: lightpink;
+  box-shadow: 3px 3px black;
+}
+.btn2:hover{
+  background-color:cadetblue ;
+  box-shadow: 3px 3px black;
+}
+
+.icons{
+  display: flex;
+}
+.icons-right{
+  width: fit-content;
+ height: fit-content;
+  display: flex;
+  
+  margin-left: 85vw;
+  margin-top: 1.5vw;
+  i{
+    font-size: 2vw;
+    
+    
+  }
+}
+.icons-left{
+  position: relative;
+  top: 1.5vw;
+  left: 2vw;
+  width: fit-content;
+  height: fit-content;
+  i{
+    font-size: 2vw;
+  }
+  
+}
+.btnm1,.btnm2{
+  text-align: center;
+  display: block ;
+  height: 3vw;
+  width: 10vw;
+  border-radius: 20px;
+  margin: 1vw;
+  
+   
+}
+.btnm1:hover,.btnm2:hover{
+  box-shadow: 5px 5px black;
+}
+.menu-bar{
+  color: white;
+  width: 10vw;
+  display: none;
+  z-index: 10;
+}
+
+.icons-left button{
+  height: 3vw;
+  width:4vw;
+  
+
+}
+.icons-left:hover{
+  .menu-bar{
+    display: block;
+    position: absolute;
+    
+    button{
+      height: 3vw;
+      width: 9vw;
+      
+    }
+  }
+}
+.user{
+  width: 9vw;
+  display: none;
+  z-index: 10;
+}
+.ico:hover{
+  .user{
+    display: block;
+    position: absolute;
+    right: 1vw;
+    
+  }
+}
+.fa{
+  position: relative;
+  left: 1vw;
+  margin-left: 1.5vw;
+}
+.fb button{
+ background: transparent;
+ border: none;
+}
+.Edit{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,8,3,0.03125) 35%, rgba(0,212,255,1) 100%);
+  width: 100%;
+  height: 100vh;;
+  text-align: center;
+}
+.edit-btns
+{
+  height: 25vw;
+  width: 20vw;
+  background-color: #C08B5C;
+  border-radius: 30px;
+  position: relative;
+  left: 40vw;
+  top: 10vw;
+}
+.Edit button{
+  width: 12vw;
+  height: 4vw;
+  border-radius: 10px;
+  background: transparent;
+  position: relative;
+  top: 5vw;
+  left: 4vw;
+display: block;
+text-shadow: 1px 1px rgb(214, 180, 180);
+margin-top: 2vw;
+background-color:#A1DD70;
+
+}
+.Edit button:hover{
+  box-shadow: 5px 5px black;
+}
+.userpopup{
+  background-color:#FFBF78;
+  height: 25vw;
+  width: 30vw;
+  position: absolute;
+  top: 12vw;
+  left: 35vw;
+  border-radius: 20px;
+  h1{
+    position: relative;
+    top: 3vw;
+  }
+}
+.userpopup input{
+  height: 4vw;
+  width: 20vw;
+  display: grid;
+  margin-top: 1vw;
+  position: relative;
+  top: 3vw;
+  left: 5vw;
+  border-radius: 10px;
+}
+.userpopup button{
+  height: 4vw;
+  width: 8vw;
+  position: relative;
+  left: 10vw;
+  top: 3vw;
+}
+.userpopup i{
+  position: relative;
+  left: 13.5vw;
+  font-size: 2vw;
+  top: -2.5vw;
+  
+}
+.visible{
+  display: inherit;
+}
+.hidden{
+  display: none;
+}
+
+.details-table{
+  position:absolute;
+  top: 10vw;
+  width: fit-content;
+  height: 18vw;
+  background-color: #fae6d5;
+  border-radius: 10px;
+  left: 60vw;
+  top: 28vw;
+  table{
+    position: relative;
+    top: 2vw;
+    
+    
+  }
+}
+.layout-img img{
+  width: 20vw;
+  height: 10vw;
+  background-color: #0818A8;
+  border-radius:100%;
+  background: transparent;
+  position: relative;
+  left: 40vw;
+}
+.Help{
+  width: 100%;
+  height: 100vh;
+  
+}
+.Help img{
+  height: 20vw;
+  width: 98%;
+  position: relative;
+  top: 2vw;
+  left: 1vw;
+}
+.content{
+  background-color: white;
+  position: absolute;
+  height: 10vw;
+  width: 25vw;
+  text-align: center;
+  top: 7vw;
+  left: 3vw;
+}
+.content h2{
+  position: relative;
+  top: 2vw;
+}
+.content input{
+  width: 20vw;
+  position: relative;
+  top: 3vw;
+  height: 3vw;
+  border-radius: 5px;
+  outline: none;
+}
+
+#head{
+  position: relative;
+  top: 5vw;
+  left: 2vw;
+  color: cadetblue;
+}
+.frequently-1,.frequently-2{
+  display: flex;
+  position: relative;
+  top: 7vw;
+  left: 2vw;
+  justify-content: space-around;
+}
+.Q1,.Q2,.Q3{
+  width: fit-content;
+}
+.frequently-2{
+  left: 3vw;
+}
+.Contact-us{
+width: 100%;
+height: 100vh;
+/* background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%); */
+}
+.Contact-us img{
+  width: 100%;
+  height: 20vw;
+  position: relative;
+  top: 1vw;
+  text-align: center;
+} 
+.img-content
+{ margin-top: 1vw;
+  display: flex;
+  margin-left: 12vw;
+  width: fit-content;
+  
+}
+.img-content img{
+ height: 10vw;
+ /* width: 15vw; */
+ width: 15vw;
+ margin: 2vw;
+ 
+}
+.C1,.C2,.C3,.C4{
+   text-align: center;
+   p{
+    font-size: 1.5vw;
+   }
+}
+.Insert{
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to right,#A9F1DF , #FFBBBB);
+}
+
+.CreditInsert{
+  width: 30vw;
+  height: 30vw;
+  background-color: #A1DD70;
+  border-radius: 10px;
+  position: relative;
+  left: 35vw;
+  top: -10vw;
+ 
+  padding: 5vw;
+}
+.CreditInsert i{
+  position: relative;
+  left: 22vw;
+  top: -4.5vw;
+  font-size: 2vw;
+  
+}
+.CreditInsert h2{
+  position: relative;
+  top: 2vw;
+  left: 2vw;
+  color: red;
+}
+.line{
+  position: relative;
+  left: 20vw;
+  top: 10vw;
+  
+}
+.line-data h2{
+ text-align: center;
+ position: relative;
+ top: 5vw;
+ font-size: xx-large;
+ 
+}
+.line-data{
+  background :linear-gradient(#FFECD2 , #FCB69F);
+  width: 100vw;
+  height: 100vh;
+}
+
+.Insert .data-btn button{
+
+  
+  margin: 1.5vw; 
+  position: relative;
+  left: 3vw;
+  top: 1vw;
+}
+
+.Insert .data-btn{
+  display: block;
+  background-color: #6654F1;
+  width: 20vw;
+  height: 20vw;
+  position: relative;
+  left: 38vw;
+  top: 15vw;
+  border-radius: 10px;
+}
+
+.limitdata{
+  background-color: #A1DD70;
+  height: 20vw;
+  width: 20vw;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  left: 38vw;top: -5vw;
+ 
+}
+.limitdata input{
+  height: 3vw;
+  width: 18vw;
+  border-radius: 10px;
+  margin-top: 3vw;
+}
+.limitdata button{
+  position: relative;
+  top: 2vw;
+  width: 6vw;
+  height: 3vw;
+  border-radius: 10px;
+}
+.limitdata h2{
+  position: relative;
+  top: 2vw
+}
+.limitdata i{
+  position: relative;
+  left: 8vw;
+  top: .5vw;
+}
+.limitdata p{
+  position: relative;
+  top: 3vw;
+  color: red;
+}
+.lim{
+  color: red;
+  position: relative;
+  left: 40vw;
+  top: 3vw;
+  z-index: 10;
+}
